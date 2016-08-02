@@ -1,0 +1,99 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#bs-over #menu {
+	right: 10px;
+	left: 65%;
+}
+
+#bs-over #fullpage { 
+	color: #fff;
+}
+
+.main-nav {
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+}
+
+.main-nav h1 {
+	z-index: 100;
+	color: #fff;
+	margin-top: 4px;
+	margin-left: 5px;
+	background-color: #000;
+	width: 185px;
+}
+
+.main-nav {
+	padding: 0px 0px 0px 10px;
+}
+
+#slide1 {
+	background-image: url('/images/lounge.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-shadow:0 2px 3px rgba(0,0,0,.6);
+}
+
+#bs-over #slide1 h1 {
+	font-size: 4em;
+}
+
+#slide2 {
+	background-image: url('/images/pan.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-shadow:0 2px 3px rgba(0,0,0,.6);
+}
+
+#bs-over #slide2 h1 {
+	font-size: 4em;
+}
+
+#slide3 {
+	background-image: url('/images/salad.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-shadow:0 2px 3px rgba(0,0,0,.6);
+}
+
+#bs-over #slide3 h1 {
+	font-size: 4em;
+}
+
+#bs-over #section1 .fp-tableCell {
+	background-color: #fff;
+}
+
+#section1 p {
+	color: #888;
+}
+
+#section1 a {
+	text-decoration: none;
+}
+
+#section2 {
+	background-image: url('/images/ingredients.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-shadow:0 2px 3px rgba(0,0,0,.6);
+}
+
+#section2 p {
+	color: #dbdbdb;
+}
+#bs-over #section3 h1 {
+	margin-top: 65px;
+}

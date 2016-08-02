@@ -1,0 +1,192 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ #bs-over {
+	position: relative;
+  	overflow: scroll;
+}
+
+ .menu {
+	background-color: #28211F;
+	color: #fff;
+	height: 100%;
+  	position: fixed;
+  	width: 220px;
+  	right:-220px;
+  	z-index: 1000;
+  	margin-left: 0px;
+  	padding-left: 0px;
+
+}
+
+.menu ul {
+	list-style-type: none;
+	margin-left: 25%;
+	padding-left: 0px;
+}
+
+#bs-over .menu li {
+	padding: 10px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
+	font-size: 22px;
+	padding-right: 5px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#bs-over .menu #span a {
+	color: #888888;
+	border: none;
+}
+
+.icon-close i {
+	cursor: pointer;
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 28px;
+}
+
+#icon-menu {
+	display: none;
+	cursor: pointer;
+	padding: 5px;
+	margin-left: 5px;
+	font-size: 28px;
+	z-index: 1000;
+	background-color: #fff;
+}
+
+#bs-over .btn {
+	border-radius: 0%;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #000;
+	transition: background-color .3s;
+}
+
+#bs-over .btn:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+#bs-over form {
+	text-align: left;
+}
+
+.footer {
+	height: 125px;
+	background-color: #28211F;
+	color: #fff;
+}
+
+.footer img {
+	display: inline-block;
+}
+
+#bs-over .footer .pull-left {
+	left:20px;
+	margin-left: 15px;
+}
+
+#bs-over .footer .pull-left a {
+	font-size: 12px;
+}
+
+#bs-over .footer .pull-left a {
+	text-decoration: none;
+}
+
+.footer .container {
+	margin-right: 1px;
+	right: 1px;
+}
+
+
+.footer ul {
+	margin-top: 60px;
+	margin-right: 0px;
+	text-decoration: none;
+}
+
+.footer li {
+	display: inline-block;
+}
+
+.footer li a {
+	color: #fff;
+}
+
+.footer i {
+	font-size: 34px;
+	padding: 5px;
+	transition: color .2s;
+}
+
+.footer i:hover {
+	color: #888;
+}
+
+@media only screen and (max-width: 768px) {
+	#menu {
+		display: none;
+	}
+
+		#bs-over #icon-menu {
+		font-size: 32px;
+		color: #000;
+		padding-left: 5px;
+		padding-top: 3px;
+		margin-right: 0px;
+		position: fixed;
+		z-index: 1000;
+		display: block;
+		float: right;
+		margin-top: 0px;
+		top: 5px;
+		right: 20px;
+		cursor: pointer;
+	}
+
+	#section1 {
+		padding-top: 60px;
+		-webkit-transform: scale(0.6);
+		transform: scale(0.6);
+		background-color: #fff;
+	}
+
+	#section1 a {
+		text-decoration: none;
+		font-size: 1.5em;
+	}
+
+	#bs-over #section1 .col-xs-12 i {
+		padding-top: 10px;
+	}
+
+	#section2 {
+		padding-top: 60px;
+		-webkit-transform: scale(0.7);
+		transform: scale(0.7);
+		background-color: #fff;
+	}
+
+}

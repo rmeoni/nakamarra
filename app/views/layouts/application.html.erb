@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nakamarra</title>
+  <meta name="author" content="Sofinteractive" />
+  <meta name="description" content="Nakamarra Parallax Template" />
+	<meta name="keywords"  content="Parallax, sofinteractive, one page website" />
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'jquery.fullPage', media: 'all' %>
+  <%= stylesheet_link_tag    'examples', media: 'all' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   <%= javascript_include_tag 'jquery.fullPage.min' %>
+   <%= javascript_include_tag 'examples' %>
+  <%= csrf_meta_tags %>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!--font awesome-->
+  <script src="https://use.fontawesome.com/811422e9bc.js"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <!-- mobile -->
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified JavaScript for bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body id="bs-over">
+	<div class="top" id="top">
+	</div>
+	<div class="menu">
+		<div class="icon-close">
+			<i class="material-icons">close</i>
+		</div>
+			<ul>
+				<li><%= link_to "HOME", '/'%></li>
+				<li><%= link_to "ABOUT US", '/'%></li>
+				<li><%= link_to "RECIPES", '/'%></li>
+				<li><%= link_to "LOCATIONS", '/'%></li>
+			</ul>
+	</div>
+	<i class="material-icons" id="icon-menu">menu</i>
+
+<%= yield %>
+
+<!-- mobile nav bar -->
+	<script type="text/javascript">
+	
+	var main = function() {
+
+	/* Push the body and the nav over by 480px over */
+  $('#icon-menu').click(function() {
+  	$('#icon-menu').css('background-color','#28211F');
+    $('.menu').animate({
+      right: "0px"
+    }, 200);
+
+    $('body').animate({
+      right: "220px"
+    }, 200);
+
+  });
+
+  /* Then push them back */
+  $('.icon-close').click(function() {
+  	$('#icon-menu').css('background-color', '#fff');
+    $('.menu').animate({
+      right: "-220px"
+    }, 200);
+
+    $('body').animate({
+      right: "0px"
+    }, 200);
+
+});
+
+};
+$(document).ready(main);
+
+	</script>
+
+</body>
+</html>
