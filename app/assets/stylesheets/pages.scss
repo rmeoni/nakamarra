@@ -31,6 +31,15 @@
 	padding: 0px 0px 0px 10px;
 }
 
+.main-nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.main-nav a:hover {
+	text-decoration: none;
+}
+
 #slide1 {
 	background-image: url('/images/lounge.jpg');
 	background-size: cover;
