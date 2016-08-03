@@ -89,56 +89,7 @@ $(document).ready(main);
 
 	</script>
 
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				sectionsColor: ['#fff', '#fff', '#fff', '#fff' ],
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-				loopTop: true,
-				loopBottom: true,
-				slidesNavigation: true,
-				afterLoad: function(anchorLink, index){
-
-					//section 2
-					if(index == 2){
-						//moving the image
-						$('#section1').find('i').delay(100).animate({
-							left: '0%'
-						}, 500, 'easeOutExpo');
-
-						$('#section1').find('p').fadeIn(500, function(){
-							$('#section1').find('p').fadeIn(500);
-						});;
-
-					}
-
-					//section 3
-					if(anchorLink == '3rdPage'){
-						//moving the image
-						$('#section2').find('.intro').delay(200).animate({
-							left: '0%'
-						}, 500, 'easeOutExpo');
-					}
-				}
-			});
-		});
-	</script>
-	<style>
-		#section1 i {
-			left: 300%;
-			position:relative;
-		}
-		#section1 p{
-			display:none;
-		}
-		#section2 .intro{
-			left: -130%;
-			position:relative;
-		}
-	</style>
-
+	
 
 </body>
 </html>
