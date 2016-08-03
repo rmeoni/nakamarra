@@ -93,7 +93,7 @@
 }
 
 .footer {
-	height: 125px;
+	height: 150px;
 	background-color: #28211F;
 	color: #fff;
 }
@@ -167,7 +167,7 @@
 	}
 
 	#section1 {
-		padding-top: 60px;
+		padding-top: 65px;
 		-webkit-transform: scale(0.6);
 		transform: scale(0.6);
 		background-color: #fff;
@@ -182,11 +182,11 @@
 		padding-top: 10px;
 	}
 
-	#section2 {
-		padding-top: 60px;
-		-webkit-transform: scale(0.7);
-		transform: scale(0.7);
-		background-color: #fff;
+	#section2 .row {
+		margin-top: 0px;
+		padding-top: 0px;
+		-webkit-transform: scale(0.6);
+		transform: scale(0.6);
 	}
 
 }
