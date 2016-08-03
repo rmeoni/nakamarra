@@ -1,4 +1,13 @@
 class PagesController < ApplicationController
 	def index
 	end
+
+	def recipes
+	end
+
+	def locations
+	end
+
+	def about
+	end
 end

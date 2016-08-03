@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
 
   get '/' => 'pages#index', as: :root
+  get '/recipes' => 'pages#recipes'
+  get '/locations' => 'pages#locations'
+  get '/about' => 'pages#about'
+
+  get "*missing" => redirect("/")
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

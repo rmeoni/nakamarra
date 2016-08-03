@@ -48,15 +48,6 @@
 		}
 	</style>
 
-<div class="main-nav">
-<h1>Nakamarra</h1>
-
-<ul id="menu" class="pull-right">
-	<li data-menuanchor="firstPage"><a href="/">Recipes</a></li>
-	<li data-menuanchor="secondPage"><a href="/">Locations</a></li>
-	<li data-menuanchor="3rdPage"><a href="/">About Us</a></li>
-</ul>
-</div>
 
 <div id="fullpage">
 	<div class="section " id="section0">
@@ -82,19 +73,19 @@
 					<i class="fa fa-heart-o fa-5x" aria-hidden="true"></i>
 					<h1>Buy</h1>
 					<p>Premium quality products.</p>
-					<a href="/">See our locations <i class="material-icons">subdirectory_arrow_right</i></a>
+					<a href="/locations">See our locations <i class="material-icons">subdirectory_arrow_right</i></a>
 				</div>
 				<div class="col-md-4 col-xs-12">
 					<i class="fa fa-smile-o fa-5x" aria-hidden="true"></i>
 					<h1>About Us</h1>
 					<p>Let's get to know each other.</p>
-					<a href="/">Read about us <i class="material-icons">subdirectory_arrow_right</i></a>
+					<a href="/about">Read about us <i class="material-icons">subdirectory_arrow_right</i></a>
 				</div>
 				<div class="col-md-4 col-xs-12">
 					<i class="fa fa-pencil-square-o fa-5x" aria-hidden="true"></i>
 					<h1>Recipes</h1>
 					<p>Be a chef with our recipes.</p>
-					<a href="/">See our recipe book <i class="material-icons">subdirectory_arrow_right</i></a>
+					<a href="/recipes">See our recipe book <i class="material-icons">subdirectory_arrow_right</i></a>
 				</div>
 			</div>
 		</div>
@@ -153,11 +144,11 @@
 				</ul>
 			<div class="container">
 				<ul class="pull-right">
-					<li><%= link_to '/', target: :_blank do %><i class="fa fa-facebook" aria-hidden="true"></i><% end %>
+					<li><%= link_to 'www.facebook.com', target: :_blank do %><i class="fa fa-facebook" aria-hidden="true"></i><% end %>
 </li>
-					<li><%= link_to '/', target: :_blank do %><i class="fa fa-instagram" aria-hidden="true"></i><% end %>
+					<li><%= link_to 'www.instagram.com', target: :_blank do %><i class="fa fa-instagram" aria-hidden="true"></i><% end %>
 </li>
-					<li><%= link_to '/' do %><i class="fa fa-linkedin" aria-hidden="true"></i>
+					<li><%= link_to 'www.linkedin.com', target: :_blank do %><i class="fa fa-linkedin" aria-hidden="true"></i>
 <% end %> </li>
 				</ul>
 			</div>

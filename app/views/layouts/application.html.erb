@@ -33,12 +33,23 @@
 		</div>
 			<ul>
 				<li><%= link_to "HOME", '/'%></li>
-				<li><%= link_to "ABOUT US", '/'%></li>
-				<li><%= link_to "RECIPES", '/'%></li>
-				<li><%= link_to "LOCATIONS", '/'%></li>
+				<li><%= link_to "ABOUT US", '/about'%></li>
+				<li><%= link_to "RECIPES", '/recipes'%></li>
+				<li><%= link_to "LOCATIONS", '/locations'%></li>
 			</ul>
 	</div>
 	<i class="material-icons" id="icon-menu">menu</i>
+	<div class="main-nav">
+		<%= link_to root_path, :data => { :reload => true } do %>
+		<h1>Nakamarra</h1>
+		<% end %>
+
+<ul id="menu" class="pull-right">
+	<li data-menuanchor="firstPage"><a href="/recipes">Recipes</a></li>
+	<li data-menuanchor="secondPage"><a href="/locations">Locations</a></li>
+	<li data-menuanchor="3rdPage"><a href="/about">About Us</a></li>
+</ul>
+</div>
 
 <%= yield %>
 
