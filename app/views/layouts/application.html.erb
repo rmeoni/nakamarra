@@ -34,10 +34,11 @@
 			<i class="material-icons">close</i>
 		</div>
 			<ul>
-				<li><%= link_to "HOME", '/'%></li>
+				<li><%= link_to "HOME", '/', :data => {:reload => true} %></li>
 				<li><%= link_to "ABOUT US", '/about',:data => { :reload => true } %></li>
 				<li><%= link_to "RECIPES", '/recipes'%></li>
 				<li><%= link_to "LOCATIONS", '/locations'%></li>
+				<li><%= link_to "FAQS", '/faq'%></li>
 			</ul>
 	</div>
 	<i class="material-icons" id="icon-menu">menu</i>
@@ -50,6 +51,7 @@
 	<li><a href="/recipes">Recipes</a></li>
 	<li><a href="/locations">Locations</a></li>
 	<li><a href="/about">About Us</a></li>
+	<li><a href="/faq">FAQS</a></li>
 </ul>
 </div>
 

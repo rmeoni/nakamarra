@@ -5,7 +5,7 @@
 
 #bs-over #menu {
 	right: 10px;
-	left: 65%;
+	left: 60%;
 }
 
 #bs-over #fullpage { 
@@ -123,4 +123,19 @@
 #bs-over .about p {
 	text-align: justify;
 	font-size: 14px;
+}
+
+.faq {
+	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+		background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
+		background: linear-gradient(#4BBFC3,#7BAABE);
+		min-height: 600px;
+}
+
+.faq h1 {
+	margin-top: 70px;
+	color: #fff;
+}
+#accordion {
+	margin-top: 40px;
 }

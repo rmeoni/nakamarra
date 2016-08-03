@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get '/recipes' => 'pages#recipes'
   get '/locations' => 'pages#locations'
   get '/about' => 'pages#about'
+  get '/faq' => 'pages#faq'
 
   get "*missing" => redirect("/")
   # The priority is based upon order of creation: first created -> highest priority.
