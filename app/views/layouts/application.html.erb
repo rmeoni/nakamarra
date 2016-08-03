@@ -23,6 +23,8 @@
        <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Latest compiled and minified JavaScript for bootstrap -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 </head>
 <body id="bs-over">
 	<div class="top" id="top">
@@ -33,21 +35,21 @@
 		</div>
 			<ul>
 				<li><%= link_to "HOME", '/'%></li>
-				<li><%= link_to "ABOUT US", '/about'%></li>
+				<li><%= link_to "ABOUT US", '/about',:data => { :reload => true } %></li>
 				<li><%= link_to "RECIPES", '/recipes'%></li>
 				<li><%= link_to "LOCATIONS", '/locations'%></li>
 			</ul>
 	</div>
 	<i class="material-icons" id="icon-menu">menu</i>
 	<div class="main-nav">
-		<%= link_to root_path, :data => { :reload => true } do %>
+		<%= link_to '/', :data => { :reload => true } do %>
 		<h1>Nakamarra</h1>
 		<% end %>
 
 <ul id="menu" class="pull-right">
-	<li data-menuanchor="firstPage"><a href="/recipes">Recipes</a></li>
-	<li data-menuanchor="secondPage"><a href="/locations">Locations</a></li>
-	<li data-menuanchor="3rdPage"><a href="/about">About Us</a></li>
+	<li><a href="/recipes">Recipes</a></li>
+	<li><a href="/locations">Locations</a></li>
+	<li><a href="/about">About Us</a></li>
 </ul>
 </div>
 
