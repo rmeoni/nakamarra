@@ -196,4 +196,11 @@
 		margin-bottom: 40px;
 	}
 
+	#bs-over .fp-controlArrow.fp-prev {
+   	display: none;
+}
+	#bs-over .fp-controlArrow.fp-next {
+ 	display: none;
+}
+
 }
