@@ -126,10 +126,23 @@
 	padding-bottom: 40px;
 }
 
-#bs-over .about h1 {
-	margin-top: 50px;
-	margin-bottom: 40px;
+.about .jumbotron {
+	height: 400px;
+	background-image: url("/images/matacafe.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
+
+.about .jumbotron h1 {
+	text-align: center;
+	color: #fff;
+	text-shadow:0 2px 3px rgba(0,0,0,.6);
+	margin-top: 150px;
+}
+
+
+
 
 #bs-over .about p {
 	text-align: justify;
