@@ -18,7 +18,7 @@
   	overflow: scroll;
 }
 
- .menu {
+ #bs-over .menu {
 	background-color: #000;
 	color: #fff;
 	height: 100%;
@@ -29,6 +29,22 @@
   	margin-left: 0px;
   	padding-left: 0px;
 
+
+}
+
+#bs-over #menu {
+	margin-top: 20px;
+	color: #fff;
+}
+
+#bs-over #menu li {
+	background-color: #333;
+	color: #fff;
+	opacity: 0.9;
+}
+
+#bs-over #menu li a {
+	color: #fff;
 }
 
 .menu ul {
@@ -94,8 +110,8 @@
 }
 
 .footer {
-	height: 125px;
-	background-color: #000;
+	height: 200px;
+	background-color: #333;
 	color: #fff;
 	bottom: 0px;
 	padding: 20px 20px 0px 20px;

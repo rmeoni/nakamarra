@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nakamarra</title>
+  <title>Caf&eacute; Don Lucas</title>
   <meta name="author" content="Sofinteractive" />
-  <meta name="description" content="Nakamarra Parallax Template" />
-	<meta name="keywords"  content="Parallax, sofinteractive, one page website" />
+  <meta name="description" content="Caf&eacute; Don Lucas, caf&eacute; guatemalteco 100% org&aacute;nico cosechado a las faldas del volc&aacute;n Tajumulco." />
+	<meta name="keywords"  content="Parallax, sofinteractive, caf&eacute;, don lucas, guatemala, san marcos, barista, caf&eacute; guatemalteco." />
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= stylesheet_link_tag    'jquery.fullPage', media: 'all' %>
   <%= stylesheet_link_tag    'examples', media: 'all' %>
@@ -34,24 +34,22 @@
 			<i class="material-icons">close</i>
 		</div>
 			<ul>
-				<li><%= link_to "HOME", '/', :data => {:reload => true} %></li>
-				<li><%= link_to "ABOUT US", '/about',:data => { :reload => true } %></li>
-				<li><%= link_to "RECIPES", '/recipes'%></li>
-				<li><%= link_to "LOCATIONS", '/locations'%></li>
-				<li><%= link_to "FAQS", '/faq'%></li>
+				<li><%= link_to "INICIO", '/', :data => {:reload => true} %></li>
+				<li><%= link_to "SOBRE NOSOTROS", '/about',:data => { :reload => true } %></li>
+				<li><%= link_to "UBICACIONES", '/locations'%></li>
+				<li><%= link_to "PREGUNTAS FRECUENTES", '/faq'%></li>
 			</ul>
 	</div>
 	<i class="material-icons" id="icon-menu">menu</i>
 	<div class="main-nav">
 		<%= link_to '/', :data => { :reload => true } do %>
-		<h1>Nakamarra</h1>
+		<img src="/images/Logo1Blanco.png" style="width:200px;height:135px;">
 		<% end %>
 
 <ul id="menu" class="pull-right">
-	<li><a href="/recipes">Recipes</a></li>
-	<li><a href="/locations">Locations</a></li>
-	<li><a href="/about">About Us</a></li>
-	<li><a href="/faq">FAQS</a></li>
+	<li><a href="/locations">Ubicaciones</a></li>
+	<li><a href="/about">Sobre Nosotros</a></li>
+	<li><a href="/faq">Preguntas Frecuentes</a></li>
 </ul>
 </div>
 
