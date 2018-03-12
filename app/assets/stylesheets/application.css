@@ -185,11 +185,10 @@
 		cursor: pointer;
 	}
 
-	#section1 {
+	#section1 .row {
 		padding-top: 65px;
-		-webkit-transform: scale(0.6);
-		transform: scale(0.6);
-		background-color: #fff;
+		-webkit-transform: scale(0.8);
+		transform: scale(0.8);
 	}
 
 	#section1 a {
