@@ -186,7 +186,7 @@
 	}
 
 	#section1 .row {
-		padding-top: 65px;
+		padding-top: 10px;
 		-webkit-transform: scale(0.8);
 		transform: scale(0.8);
 	}
@@ -203,13 +203,10 @@
 	#section2 .row {
 		margin-top: 0px;
 		padding-top: 0px;
-		-webkit-transform: scale(0.6);
-		transform: scale(0.6);
+		-webkit-transform: scale(0.8);
+		transform: scale(0.8);
 	}
 
-	#bs-over form {
-		margin-bottom: 40px;
-	}
 
 	#bs-over .fp-controlArrow.fp-prev {
    	display: none;
