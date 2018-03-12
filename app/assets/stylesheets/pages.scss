@@ -150,3 +150,20 @@
 #accordion {
 	margin-top: 40px;
 }
+
+.comprar .jumbotron {
+	height: 400px;
+	background-image: url("/images/coffeebean.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+}
+
+.comprar .jumbotron h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 150px;
+	text-shadow:0 2px 3px rgba(0,0,0,.6);
+}
