@@ -185,10 +185,11 @@
 		cursor: pointer;
 	}
 
-	#section1 .row {
-		padding-top: 10px;
-		-webkit-transform: scale(0.8);
-		transform: scale(0.8);
+	#bs-over #section1 .row {
+		padding-top: 0px;
+		margin-top: 0px;
+		-webkit-transform: scale(0.7);
+		transform: scale(0.7);
 	}
 
 	#section1 a {
@@ -200,11 +201,11 @@
 		padding-top: 10px;
 	}
 
-	#section2 .row {
+	#bs-over #section2 .row {
 		margin-top: 0px;
 		padding-top: 0px;
-		-webkit-transform: scale(0.8);
-		transform: scale(0.8);
+		-webkit-transform: scale(0.7);
+		transform: scale(0.7);
 	}
 
 
