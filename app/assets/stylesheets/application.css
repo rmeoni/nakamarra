@@ -104,12 +104,21 @@
 	color: #000;
 }
 
+#bs-over li:hover a span {
+    width: 10px;
+    height: 10px;
+    margin: -5px 0px 0px -5px;
+    color: #57585B;
+}
+
 #bs-over .fp-controlArrow.fp-next {
 	right: 50px;
+	color: #57585B;
 }
 
 #bs-over .fp-controlArrow.fp-prev {
 	left: 50px;
+	color: #57585B;
 }
 
 #bs-over form {
