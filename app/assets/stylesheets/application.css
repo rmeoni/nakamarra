@@ -170,12 +170,31 @@
 	text-decoration: none;
 }
 
-.footer li {
+#bs-over .footer li {
 	display: inline-block;
+	color: #fff;
+	background-color: none;
 }
 
-.footer li a {
+#bs-over .footer li a {
 	color: #fff;
+	background-color: #333333;
+}
+
+#bs-over .footer li a span {
+	color: #fff;
+	background-color: #333333;
+}
+
+
+#bs-over .footer li a span:hover {
+	color: #fff;
+	background-color: none;
+}
+
+#bs-over .footer li a:hover{
+	color: #fff;
+	background-color: none;
 }
 
 .footer i {
