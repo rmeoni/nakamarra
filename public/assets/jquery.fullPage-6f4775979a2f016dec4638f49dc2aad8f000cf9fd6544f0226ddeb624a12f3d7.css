@@ -13,7 +13,7 @@ html.fp-enabled,
     overflow:hidden;
 
     /*Avoid flicker on slides transitions for mobile phones #336 */
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: #57585B;
 }
 #superContainer {
     height: 100%;
@@ -77,17 +77,20 @@ html.fp-enabled,
     -webkit-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+    color:#57585B;
 }
 .fp-controlArrow.fp-prev {
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    border-color: transparent #57585B transparent transparent;
+    color: #57585B;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent #57585B;
+    color: #57585B;
 }
 .fp-scrollable {
     overflow: scroll;
@@ -156,6 +159,7 @@ html.fp-enabled,
     width: 12px;
     margin: -6px 0 0 -6px;
     border-radius: 100%;
+    color: #57585B;
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
@@ -165,7 +169,7 @@ html.fp-enabled,
     height: 4px;
     width: 4px;
     border: 0;
-    background: #fff;
+    background: #57585B;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
@@ -173,19 +177,19 @@ html.fp-enabled,
     -moz-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
-    color: #fff;
+    color: #57585B;
 }
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{
     width: 10px;
     height: 10px;
     margin: -5px 0px 0px -5px;
-    color: #fff;
+    color: #57585B;
 }
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
-    color: #fff;
+    color: #57585B;
     font-size: 14px;
     font-family: arial, helvetica, sans-serif;
     white-space: nowrap;
