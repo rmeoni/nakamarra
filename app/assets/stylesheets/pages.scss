@@ -40,87 +40,31 @@
 	text-decoration: none;
 }
 
-#slide1 {
-	background-image: url('/images/region-san-marcos.jpg');
+#bs-over .home {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.home h4 {
+	margin-top: 200px;
+}
+
+.home .jumbotron {
+	height: 600px;
+	background-image: url("/images/SAM_6998.jpg");
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
-	color: #57585B;
-	text-shadow:0 2px 3px rgba(0,0,0,.6);
 }
 
-#bs-over #slide1 h1 {
-	font-size: 4em;
+.home .gallery .row .col-md-6 {
+	margin-bottom: 40px;
 }
 
-#slide2 {
-	background-image: url('/images/region-huehue.png');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	color: #57585B;
-	text-shadow:0 2px 3px rgba(0,0,0,.6);
-}
-
-#bs-over #slide2 h1 {
-	font-size: 4em;
-}
-
-#slide3 {
-	background-image: url('/images/region-mezcla.png');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	color: #57585B;
-	text-shadow:0 2px 3px rgba(0,0,0,.6);
-}
-
-#bs-over #slide3 h1 {
-	font-size: 4em;
-}
-
-#bs-over #section1 .fp-tableCell {
-	background-color: #FFD600;
-}
-
-#bs-over #section1 {
-	color: #fff;
-}
-
-#section1 p {
-	color: #fff;
-}
-
-#section1 a {
-	text-decoration: none;
-	color: #fff;
-}
-
-#section2 {
-	background-image: url('/images/SAM_7000.jpg');
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	color: #fff;
-	text-shadow:0 2px 3px rgba(0,0,0,.6);
-}
-
-#section2 p {
-	color: #dbdbdb;
-}
-
-#bs-over #section3 .fp-tableCell {
-	background-color: #000;
-	color: #fff;
-}
-
-#bs-over #section3 h1 {
-	margin-top: 150px;
-
-}
 
 .about, .locations, .recipes {
-	padding-top-top: 40px;
+	padding-top: 40px;
 }
 
 #bs-over .about {

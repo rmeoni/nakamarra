@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get '/' => 'pages#index', as: :root
+  get '/' => 'pages#home', as: :root
   get '/recipes' => 'pages#recipes'
   get '/locations' => 'pages#locations'
   get '/about' => 'pages#about'
